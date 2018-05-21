@@ -45,10 +45,8 @@
         <source-file src="src/android/AdMobMediation.java" target-dir="src/com/rjfun/cordova/admob" />
         <source-file src="src/android/AdMobPlugin.java" target-dir="src/com/rjfun/cordova/admob" />
 
-        <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
-
         <!-- cordova CLI using gradle and it working well -->
-        <framework src="com.google.android.gms:play-services-ads:11.0.2" />
+        <framework src="com.google.firebase:firebase-ads:+" />
         <!-- but unfortunately, build.phonegap.com, Intel XDK, and some other tools still use ant -->
         <!-- dependency id="cordova-plugin-googleplayservices"/ -->
      </platform>
