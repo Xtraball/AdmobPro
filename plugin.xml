@@ -44,7 +44,7 @@
         <source-file src="src/android/AdMobPlugin.java" target-dir="src/com/rjfun/cordova/admob" />
 
         <!-- cordova CLI using gradle and it working well -->
-        <framework src="com.google.firebase:firebase-ads:16.0.0" />
+        <framework src="com.google.firebase:firebase-ads:15.0.0" />
      </platform>
 
      <!-- ios -->
