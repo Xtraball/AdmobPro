@@ -40,8 +40,12 @@
                 <param name="onload" value="true" />
             </feature>
         </config-file>
-        <source-file src="src/android/AdMobMediation.java" target-dir="src/com/rjfun/cordova/admob" />
-        <source-file src="src/android/AdMobPlugin.java" target-dir="src/com/rjfun/cordova/admob" />
+        <source-file src="src/android/AdMobMediation.java" target-dir="app/src/main/java/com/rjfun/cordova/admob" />
+        <source-file src="src/android/AdMobPlugin.java" target-dir="app/src/main/java/com/rjfun/cordova/admob" />
+
+        <source-file src="src/android/PluginAdapterDelegate.java" target-dir="app/src/main/java/com/rjfun/cordova/ext" />
+        <source-file src="src/android/CordovaPluginExt.java" target-dir="app/src/main/java/com/rjfun/cordova/ext" />
+        <lib-file src="src/android/cordova-generic-ad.jar" />
 
         <!-- cordova CLI using gradle and it working well -->
         <framework src="com.google.firebase:firebase-ads:15.0.0" />
